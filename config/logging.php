@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('LOG_CHANNEL', 'cloudwatch'),
+    'default' => env('LOG_CHANNEL', 'stack'),
 
     /*
     |--------------------------------------------------------------------------
@@ -32,13 +32,14 @@ return [
     |
     */
 
-    'channels' => [
-        'cloudwatch' => [
-            'driver' => 'custom',
-            'via' => \App\Logging\CloudwatchLogger::class,
-            'aws' => [
-                'region' => env('AWS_DEFAULT_REGION')
-            ]
+   'channels' => [
+        'stack' => [
+            'driver' => 'stack',
+            'channels' => ['single'],
+        ],
+        'single' => [
+            'driver' => 'errorlog',
+            'level' => 'debug',
         ],
 
         'webhook_failure' => [
