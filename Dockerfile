@@ -61,3 +61,5 @@ RUN mv ./rr-bin/roadrunner-$RR_VERSION-linux-amd64/rr . && \
     rm -rf ./rr-bin && \
     php artisan octane:install --server=roadrunner && \
     chmod 764 rr
+CMD php artisan serve --host=0.0.0.0 --port $PORT
+EXPOSE $PORT
