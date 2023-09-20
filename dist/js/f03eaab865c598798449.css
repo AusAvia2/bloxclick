@@ -1,0 +1,24 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/admin/super/PermissionsTab.vue?vue&type=style&index=0&id=f77e461a&scoped=true&lang=scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+table[data-v-f77e461a],
+th[data-v-f77e461a],
+td[data-v-f77e461a] {
+  position: relative;
+  border-collapse: collapse;
+  padding: 5px;
+  background: #fff;
+  color: #000;
+}
+th[data-v-f77e461a] {
+  border: 1px solid;
+  position: -webkit-sticky;
+  position: sticky;
+}
+th[data-v-f77e461a]:first-child {
+  left: 0;
+  z-index: 1;
+}
+.strike[data-v-f77e461a] {
+  text-decoration: line-through;
+}

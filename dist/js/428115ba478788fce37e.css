@@ -1,0 +1,260 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/polymorphic/Comments.vue?vue&type=style&index=0&id=b8243b8a&lang=scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.theme-default .creator-text {
+  color: #F39B00;
+}
+.theme-dark .creator-text {
+  color: #F39B00;
+}
+.theme-holiday-dark .creator-text {
+  color: #F39B00;
+}
+.theme-holiday-light .creator-text {
+  color: #F39B00;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/shared/ItemTriangle.vue?vue&type=style&index=0&id=670ffdba&lang=scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.triangle svg {
+  height: 18px;
+  position: absolute;
+  top: 4px;
+  right: 5px;
+}
+.triangle.large svg {
+  height: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.triangle::before, .triangle::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  z-index: -1;
+  border-color: transparent;
+  border-style: solid;
+}
+.triangle::before {
+  border-width: 30px;
+}
+.triangle.large::before {
+  border-width: 47px;
+}
+.triangle::after {
+  border-width: 25px;
+}
+.triangle.large::after {
+  border-width: 40px;
+}
+.triangle.speciale::before {
+  border-right-color: #ff0000;
+  border-top-color: #ff0000;
+}
+.triangle.special::after, .triangle.speciale::after {
+  border-right-color: #ffd52d;
+  border-top-color: #ffd52d;
+}
+.triangle.owns::after {
+  border-right-color: #4cb04c;
+  border-top-color: #4cb04c;
+}
+.theme-default .triangle.event::after {
+  border-right-color: #00A9FE;
+  border-top-color: #00A9FE;
+}
+.theme-dark .triangle.event::after {
+  border-right-color: #00A9FE;
+  border-top-color: #00A9FE;
+}
+.theme-holiday-dark .triangle.event::after {
+  border-right-color: #00A9FE;
+  border-top-color: #00A9FE;
+}
+.theme-holiday-light .triangle.event::after {
+  border-right-color: #00A9FE;
+  border-top-color: #00A9FE;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/main/ItemPrices.vue?vue&type=style&index=0&id=5745f0e8&lang=scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+div.for-was .currency {
+  display: inline;
+}
+div.for-was .price-text {
+  padding-top: 0;
+}
+.price-text {
+  font-weight: 600;
+  padding: 7px 0;
+  margin-right: 10px;
+}
+.currency .price-text {
+  max-width: calc(50% - 10px);
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/main/ItemCard.vue?vue&type=style&index=0&id=55222a2e&lang=scss&scoped=true ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.item-card img[data-v-55222a2e] {
+  margin-bottom: 0;
+}
+.item-card.special-border[data-v-55222a2e], .item-card.event-border[data-v-55222a2e] {
+  padding: 7px;
+}
+.item-card .options[data-v-55222a2e] {
+  position: absolute;
+  bottom: 4px;
+  left: 3px;
+}
+.item-details[data-v-55222a2e] {
+  height: 102px;
+  margin: 0 10px;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/item/BuyButton.vue?vue&type=style&index=0&id=bff8e452&scoped=true&lang=css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+div.pr10[data-v-bff8e452] {
+  padding-right: 10px;
+}
+div.pl10[data-v-bff8e452] {
+  padding-left: 10px;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/item/specials/SpecialData.vue?vue&type=style&index=0&id=57d1335f&lang=scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.special-data-box {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+}
+.special-data-box svg {
+  margin: 2.5px;
+}
+.special-data-data {
+  position: relative;
+  right: -45px;
+  margin-right: 45px;
+  top: 0;
+  margin-bottom: 20px;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/shared/Tag.vue?vue&type=style&index=0&id=20d5baeb&lang=scss&scoped=true ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.tag[data-v-20d5baeb] {
+  z-index: 1;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  border-radius: 2px;
+  padding: 2px 10px;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  max-width: 50%;
+}
+.theme-default .tag[data-v-20d5baeb] {
+  background-color: #4F5660;
+}
+.theme-dark .tag[data-v-20d5baeb] {
+  background-color: #4F5660;
+}
+.theme-holiday-dark .tag[data-v-20d5baeb] {
+  background-color: #4F5660;
+}
+.theme-holiday-light .tag[data-v-20d5baeb] {
+  background-color: #4F5660;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/item/tabs/Versions.vue?vue&type=style&index=0&id=5d7a814b&lang=scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.item-details {
+  margin: 0 10px;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/item/ItemPage.vue?vue&type=style&index=0&id=8a8a71da&scoped=true&lang=css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+div.pr10[data-v-8a8a71da] {
+  padding-right: 10px;
+}
+div.pl10[data-v-8a8a71da] {
+  padding-left: 10px;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/item/ItemPage.vue?vue&type=style&index=1&id=8a8a71da&lang=scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.alternative-container {
+  transition: all 1s;
+}
+.top-content {
+  display: flex;
+}
+.item-img-content {
+  position: relative;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 10px;
+  width: 100%;
+}
+.theme-default .item-img-content {
+  border-color: #C9C9D2;
+  background: radial-gradient(circle, #FFFFFF 0%, transparent 100%);
+}
+.theme-dark .item-img-content {
+  border-color: #333;
+  background: radial-gradient(circle, rgba(79, 86, 96, 0.3019607843) 0%, transparent 100%);
+}
+.theme-holiday-dark .item-img-content {
+  border-color: #333;
+  background: radial-gradient(circle, #21446c 0%, transparent 100%);
+}
+.theme-holiday-light .item-img-content {
+  border-color: #8cb3cb;
+  background: radial-gradient(circle, #caf3ff 0%, transparent 100%);
+}
+.item-data-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.bottom-data {
+  margin-top: auto;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+}
+.theme-default .bottom-data {
+  border-color: #C9C9D2;
+}
+.theme-dark .bottom-data {
+  border-color: #333;
+}
+.theme-holiday-dark .bottom-data {
+  border-color: #333;
+}
+.theme-holiday-light .bottom-data {
+  border-color: #8cb3cb;
+}
+#edit-dropdown:not(:hover) .more-full-svg {
+  display: none;
+}
+#edit-dropdown:hover .more-svg {
+  display: none;
+}
+@media handheld, only screen and (max-width: 767px) {
+.top-content {
+    display: block;
+}
+}
+.split-box div {
+  font-weight: 700;
+  padding: 7px;
+  text-transform: uppercase;
+}
+.split-data div {
+  text-align: right;
+  padding: 7px;
+}
+.avatar-img {
+  width: 100%;
+}

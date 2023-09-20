@@ -1,0 +1,122 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/polymorphic/Comments.vue?vue&type=style&index=0&id=b8243b8a&lang=scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.theme-default .creator-text {
+  color: #F39B00;
+}
+.theme-dark .creator-text {
+  color: #F39B00;
+}
+.theme-holiday-dark .creator-text {
+  color: #F39B00;
+}
+.theme-holiday-light .creator-text {
+  color: #F39B00;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/sets/play/SetPage.vue?vue&type=style&index=0&id=1ffb7314&lang=scss&scoped=true ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+#set-dropdown:not(:hover) .more-full-svg[data-v-1ffb7314] {
+  display: none;
+}
+#set-dropdown:hover .more-svg[data-v-1ffb7314] {
+  display: none;
+}
+.pass-box[data-v-1ffb7314] {
+  border-radius: 5px;
+  border: 2px solid;
+  margin: 5px;
+  padding: 10px;
+  height: 160px;
+  position: relative;
+}
+.theme-default .pass-box[data-v-1ffb7314] {
+  border-color: #C9C9D2;
+}
+.theme-dark .pass-box[data-v-1ffb7314] {
+  border-color: #333;
+}
+.theme-holiday-dark .pass-box[data-v-1ffb7314] {
+  border-color: #333;
+}
+.theme-holiday-light .pass-box[data-v-1ffb7314] {
+  border-color: #8cb3cb;
+}
+.pass-box img[data-v-1ffb7314] {
+  width: 140px;
+  float: left;
+  margin-right: 10px;
+}
+.pass-box .purchase[data-v-1ffb7314] {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.pass-box .purchase span[data-v-1ffb7314] {
+  padding-right: 24px;
+}
+@media only screen and (min-width: 767px) {
+.pass-box[data-v-1ffb7314] {
+    width: calc(50% - 10px);
+}
+}
+@media handheld, only screen and (max-width: 767px) {
+.more-data[data-v-1ffb7314] {
+    margin-bottom: 35px;
+}
+.more-data div[data-v-1ffb7314] {
+    padding-top: 10px;
+}
+}
+.ratings[data-v-1ffb7314] {
+  position: relative;
+}
+.ratings div[data-v-1ffb7314] {
+  position: absolute;
+  height: 5px;
+  border-radius: 1px;
+}
+.ratings .red-ratings[data-v-1ffb7314] {
+  background-color: #dc0f18;
+}
+.ratings .green-ratings[data-v-1ffb7314] {
+  background-color: #3ade55;
+}
+.split-box div[data-v-1ffb7314] {
+  font-weight: 700;
+  padding: 7px;
+  text-transform: uppercase;
+}
+.split-data div[data-v-1ffb7314] {
+  text-align: right;
+  padding: 7px;
+}
+.play-content-box[data-v-1ffb7314] {
+  padding-bottom: 8px;
+  border-bottom: 2px solid;
+  min-height: 211px;
+}
+.theme-default .play-content-box[data-v-1ffb7314] {
+  border-color: #C9C9D2;
+}
+.theme-dark .play-content-box[data-v-1ffb7314] {
+  border-color: #333;
+}
+.theme-holiday-dark .play-content-box[data-v-1ffb7314] {
+  border-color: #333;
+}
+.theme-holiday-light .play-content-box[data-v-1ffb7314] {
+  border-color: #8cb3cb;
+}
+.play-button[data-v-1ffb7314] {
+  font-size: 2em;
+  width: 100%;
+  padding: 12.5px;
+}
+.game-thumbnail[data-v-1ffb7314] {
+  width: 100%;
+}
+.user-thumbnail[data-v-1ffb7314] {
+  width: 100%;
+  padding: 8px;
+}

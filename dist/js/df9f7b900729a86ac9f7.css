@@ -1,0 +1,328 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/user/editor/InventoryTab.vue?vue&type=style&index=0&id=17a39236&lang=scss&scoped=true ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.item-card[data-v-17a39236] {
+  height: 128px;
+  width: 128px;
+}
+.new-theme .col-2-3 .optional-types[data-v-17a39236] {
+  padding: 10px 0;
+}
+.new-theme .col-2-3 .optional-types label[data-v-17a39236] {
+  margin-right: 35px;
+}
+.theme-default .versions.item-card[data-v-17a39236] {
+  background-color: #EDEDED;
+}
+.theme-dark .versions.item-card[data-v-17a39236] {
+  background-color: #242426;
+}
+.theme-holiday-dark .versions.item-card[data-v-17a39236] {
+  background-color: #242426;
+}
+.theme-holiday-light .versions.item-card[data-v-17a39236] {
+  background-color: #FFF;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/user/editor/OutfitTab.vue?vue&type=style&index=0&id=0e768076&lang=scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.item-card {
+  height: 128px;
+  width: 128px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/user/editor/Painter.vue?vue&type=style&index=0&id=eb9c1c22&lang=scss&scoped=true ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.avatar-color-picker-hex[data-v-eb9c1c22] {
+  height: 38px;
+  margin-left: 0;
+  position: absolute;
+  top: 0;
+  width: 85%;
+  border-radius: 0 2px 2px 0;
+  border-left: 0;
+  padding: 0 8px;
+}
+.new-theme .painter-container .avatar-color-picker[data-v-eb9c1c22] {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #fff;
+  border-radius: 2px 0 0 2px;
+}
+.color-selector[data-v-eb9c1c22] {
+  padding: 10px;
+}
+@media only screen and (min-width: 767px) {
+.color-selector[data-v-eb9c1c22] {
+    margin-bottom: 35px;
+}
+}
+.color-container[data-v-eb9c1c22] {
+  white-space: pre-wrap;
+}
+.color-box[data-v-eb9c1c22] {
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 15px;
+  margin: 0 2px;
+}
+.color-box.selected[data-v-eb9c1c22] {
+  outline: 2px solid;
+  position: relative;
+  z-index: 2;
+}
+.theme-default .color-box.selected[data-v-eb9c1c22] {
+  outline-color: #00A9FE;
+}
+.theme-dark .color-box.selected[data-v-eb9c1c22] {
+  outline-color: #00A9FE;
+}
+.theme-holiday-dark .color-box.selected[data-v-eb9c1c22] {
+  outline-color: #00A9FE;
+}
+.theme-holiday-light .color-box.selected[data-v-eb9c1c22] {
+  outline-color: #00A9FE;
+}
+.avatar-part[data-v-eb9c1c22] {
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: transparent;
+  display: inline-block;
+  border: 2px solid rgba(0, 0, 0, 0.2509803922);
+}
+.avatar-part[data-v-eb9c1c22]:not(.head) {
+  border-radius: 1px;
+}
+.avatar-part.selected[data-v-eb9c1c22] {
+  outline: 2px solid;
+  position: relative;
+  z-index: 2;
+}
+.avatar-part.selected[data-v-eb9c1c22]:not(.head) {
+  border-radius: 2px;
+}
+.theme-default .avatar-part.selected[data-v-eb9c1c22] {
+  outline-color: #00A9FE;
+}
+.theme-dark .avatar-part.selected[data-v-eb9c1c22] {
+  outline-color: #00A9FE;
+}
+.theme-holiday-dark .avatar-part.selected[data-v-eb9c1c22] {
+  outline-color: #00A9FE;
+}
+.theme-holiday-light .avatar-part.selected[data-v-eb9c1c22] {
+  outline-color: #00A9FE;
+}
+.head[data-v-eb9c1c22] {
+  background-color: #fff;
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1px;
+  border-radius: 25%;
+}
+.torso[data-v-eb9c1c22] {
+  background-color: #fff;
+  width: 50%;
+  padding-bottom: 50%;
+  margin: 1px;
+}
+.arm[data-v-eb9c1c22] {
+  background-color: #7b8183;
+  width: 25%;
+  padding-bottom: 50%;
+  margin: 1px;
+}
+.leg[data-v-eb9c1c22] {
+  background-color: #7b8183;
+  width: 25%;
+  padding-bottom: 50%;
+  margin-top: 1px;
+}
+.leg.left[data-v-eb9c1c22] {
+  margin-left: 5px;
+  width: calc(25% - 2px);
+  margin-right: 1px;
+}
+.leg.right[data-v-eb9c1c22] {
+  margin-left: 1px;
+}
+.painter[data-v-eb9c1c22] {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  padding-left: 100%;
+  width: 275%;
+  min-height: calc(100% + 20px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  z-index: 10;
+}
+.theme-default .painter[data-v-eb9c1c22] {
+  background-color: #DCDCDC;
+}
+.theme-dark .painter[data-v-eb9c1c22] {
+  background-color: #2B2B2D;
+}
+.theme-holiday-dark .painter[data-v-eb9c1c22] {
+  background-color: #081325;
+}
+.theme-holiday-light .painter[data-v-eb9c1c22] {
+  background-color: #c3cddb;
+}
+@media only screen and (min-width: 767px) {
+.painter .paint-container[data-v-eb9c1c22] {
+    border-right: 1px solid #000;
+}
+}
+@media handheld, only screen and (max-width: 767px) {
+.painter[data-v-eb9c1c22] {
+    width: calc(100% + 15px);
+    padding-left: 0;
+    height: auto;
+    padding-top: calc(100% + 50px);
+}
+}
+@media handheld, only screen and (max-width: 400px) {
+.painter[data-v-eb9c1c22] {
+    padding-top: calc(120% + 50px);
+}
+}
+@media handheld, only screen and (max-width: 240px) {
+.painter[data-v-eb9c1c22] {
+    padding-top: calc(150% + 50px);
+}
+}
+.painter .painter-container[data-v-eb9c1c22] {
+  white-space: nowrap;
+  padding: 20px;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/user/editor/Clothing.vue?vue&type=style&index=0&id=3b306758&lang=scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.sort-ghost {
+  opacity: 0.6;
+}
+.drag-elem {
+  position: absolute;
+  right: -23px;
+  top: 0;
+  background-color: #4f5660;
+  border-radius: 2px;
+  padding: 4px;
+  height: 64px;
+  border-left: 1px solid;
+}
+.theme-default .drag-elem {
+  border-color: #C9C9D2;
+}
+.theme-dark .drag-elem {
+  border-color: #333;
+}
+.theme-holiday-dark .drag-elem {
+  border-color: #333;
+}
+.theme-holiday-light .drag-elem {
+  border-color: #8cb3cb;
+}
+.drag-elem:not(:hover) {
+  display: none;
+}
+.preview-data {
+  position: absolute;
+  top: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 100%;
+  width: 100%;
+  scrollbar-color: rgba(0, 0, 0, 0.5333333333) transparent;
+  scrollbar-width: thin;
+}
+.preview-data .item {
+  position: relative;
+  height: 64px;
+  width: 64px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 2px;
+  background-color: #4f5660;
+}
+.preview-data .item .extension {
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  width: 24px;
+  top: 0;
+  right: -23px;
+}
+.preview-data .item img {
+  width: 100%;
+}
+.preview-data .item:hover .drag-elem {
+  display: inline;
+}
+.preview-data::-webkit-scrollbar {
+  width: 15px;
+}
+.preview-data::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.preview-data::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5333333333);
+  border-radius: 10px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/user/editor/AvatarEditor.vue?vue&type=style&index=0&id=ba52201c&lang=scss&scoped=true ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.threedee-button[data-v-ba52201c] {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 20px;
+  padding: 7px 15px;
+}
+.avatar-buttons[data-v-ba52201c] {
+  position: relative;
+  z-index: 11;
+}
+.avatar-buttons div:not(:last-child) button[data-v-ba52201c],
+.avatar-buttons div:not(:last-child) .button-hint[data-v-ba52201c] {
+  margin-right: 9.9px;
+}
+.avatar-buttons .button-hint[data-v-ba52201c] {
+  font-weight: 600;
+  margin-top: 5px;
+}
+.avatar-buttons svg[data-v-ba52201c] {
+  height: 24px;
+}
+.preview-holder[data-v-ba52201c] {
+  position: relative;
+  margin-bottom: 10px;
+  z-index: 11;
+}
+.preview-img[data-v-ba52201c] {
+  border-radius: 2px;
+  border: 1px solid;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: -4px;
+}
+.theme-default .preview-img[data-v-ba52201c] {
+  border-color: #C9C9D2;
+  background: radial-gradient(circle, #FFFFFF 0%, transparent 100%);
+}
+.theme-dark .preview-img[data-v-ba52201c] {
+  border-color: #333;
+  background: radial-gradient(circle, rgba(79, 86, 96, 0.3019607843) 0%, transparent 100%);
+}
+.theme-holiday-dark .preview-img[data-v-ba52201c] {
+  border-color: #333;
+  background: radial-gradient(circle, #21446c 0%, transparent 100%);
+}
+.theme-holiday-light .preview-img[data-v-ba52201c] {
+  border-color: #8cb3cb;
+  background: radial-gradient(circle, #caf3ff 0%, transparent 100%);
+}

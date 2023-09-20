@@ -1,0 +1,56 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/user/BlogCard.vue?vue&type=style&index=0&id=f13249d0&lang=scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.blog-card {
+  position: relative;
+  border-radius: 3px;
+  height: 150px;
+  width: 500px;
+  margin-right: 10px;
+}
+.blog-card:hover .feature-image {
+  transform: scale(1.2);
+}
+.blog-card .feature-image {
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 200ms;
+}
+.blog-card .feature-image.no-feature {
+  background: linear-gradient(180deg, #00aaff 0%, #0088ff 100%);
+}
+.blog-card .info {
+  position: relative;
+  height: 40%;
+  top: 60%;
+  background-color: rgba(51, 51, 51, 0.3137254902);
+  border-radius: 0px 0px 3px 3px;
+  padding-left: 10px;
+  backdrop-filter: blur(1.5px);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+.blog-card .info .title {
+  margin-bottom: 0;
+  margin-top: 10px;
+  width: 90%;
+}
+.blog-card .info .author {
+  margin-top: 5px;
+}
+.blog-holder {
+  overflow: hidden;
+}
+@media handheld, only screen and (max-width: 767px) {
+.blog-holder {
+    flex-direction: column;
+}
+.blog-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+}

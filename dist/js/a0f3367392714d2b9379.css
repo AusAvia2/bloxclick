@@ -1,0 +1,150 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/create/SharedForm.vue?vue&type=style&index=0&id=482b2b91&lang=scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.left-container {
+  border-right: 1px solid;
+}
+.theme-default .left-container {
+  border-color: #C9C9D2;
+}
+.theme-dark .left-container {
+  border-color: #333;
+}
+.theme-holiday-dark .left-container {
+  border-color: #333;
+}
+.theme-holiday-light .left-container {
+  border-color: #8cb3cb;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/create/UploadItem.vue?vue&type=style&index=0&id=6ec0dffc&lang=scss&scoped=true ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.avatar-checkboxes[data-v-6ec0dffc] {
+  margin-top: 20px;
+}
+.avatar-checkboxes label[data-v-6ec0dffc] {
+  margin-right: 10px;
+}
+.avatar-part[data-v-6ec0dffc] {
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: transparent;
+  display: inline-block;
+  border: 2px solid;
+}
+.theme-default .avatar-part[data-v-6ec0dffc] {
+  border-color: #242426;
+}
+.theme-dark .avatar-part[data-v-6ec0dffc] {
+  border-color: #FFF;
+}
+.theme-holiday-dark .avatar-part[data-v-6ec0dffc] {
+  border-color: #FFF;
+}
+.theme-holiday-light .avatar-part[data-v-6ec0dffc] {
+  border-color: #242426;
+}
+.torso[data-v-6ec0dffc] {
+  width: calc(50% - 2px);
+  padding-bottom: 50%;
+  border-right-width: 1px;
+  border-left-width: 1px;
+}
+.torso.selected[data-v-6ec0dffc] {
+  background-color: #aab4b9;
+  border: 2px solid rgba(0, 0, 0, 0.1254901961);
+}
+.arm[data-v-6ec0dffc] {
+  width: 25%;
+  padding-bottom: 50%;
+}
+.arm.selected[data-v-6ec0dffc] {
+  background-color: #fed800;
+  border: 2px solid rgba(0, 0, 0, 0.1254901961);
+}
+.arm.left[data-v-6ec0dffc] {
+  border-right-width: 1px;
+  border-radius: 2px 0 0 2px;
+}
+.arm.right[data-v-6ec0dffc] {
+  border-left-width: 1px;
+  border-radius: 0 2px 2px 0;
+}
+.leg[data-v-6ec0dffc] {
+  width: 25%;
+  padding-bottom: 50%;
+  border-top: 0;
+}
+.leg.selected[data-v-6ec0dffc] {
+  background-color: #f1f1f1;
+  border-color: rgba(0, 0, 0, 0.1254901961);
+}
+.leg.selected.left[data-v-6ec0dffc], .leg.selected.right[data-v-6ec0dffc] {
+  border-color: rgba(0, 0, 0, 0.1254901961);
+}
+.leg.left[data-v-6ec0dffc] {
+  border-right-width: 1px;
+  border-radius: 0 0 0 2px;
+}
+.leg.right[data-v-6ec0dffc] {
+  border-left-width: 1px;
+  border-radius: 0 0 2px;
+}
+.advanced-info[data-v-6ec0dffc] {
+  overflow: hidden;
+  transition: max-height 200ms;
+}
+.advanced-info[data-v-6ec0dffc]:not(.open) {
+  max-height: 0;
+}
+.advanced-info.open[data-v-6ec0dffc] {
+  max-height: 300px;
+}
+.preview-img[data-v-6ec0dffc] {
+  border-radius: 2px;
+  border: 1px solid;
+  padding: 20px;
+  min-width: 65%;
+}
+.preview-img.empty[data-v-6ec0dffc] {
+  padding-bottom: calc(65% - 20px);
+}
+.theme-default .preview-img[data-v-6ec0dffc] {
+  border-color: #C9C9D2;
+  background: radial-gradient(circle, #FFFFFF 0%, transparent 100%);
+}
+.theme-dark .preview-img[data-v-6ec0dffc] {
+  border-color: #333;
+  background: radial-gradient(circle, rgba(79, 86, 96, 0.3019607843) 0%, transparent 100%);
+}
+.theme-holiday-dark .preview-img[data-v-6ec0dffc] {
+  border-color: #333;
+  background: radial-gradient(circle, #21446c 0%, transparent 100%);
+}
+.theme-holiday-light .preview-img[data-v-6ec0dffc] {
+  border-color: #8cb3cb;
+  background: radial-gradient(circle, #caf3ff 0%, transparent 100%);
+}
+.checkerboard[data-v-6ec0dffc] {
+  height: 0;
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 1px;
+  border: 1px solid;
+  background-color: #49494c;
+  background-image: linear-gradient(45deg, #59595c 25%, transparent 25%), linear-gradient(-45deg, #59595c 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #59595c 75%), linear-gradient(-45deg, transparent 75%, #59595c 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+.theme-default .checkerboard[data-v-6ec0dffc] {
+  border-color: #C9C9D2;
+}
+.theme-dark .checkerboard[data-v-6ec0dffc] {
+  border-color: #FFF;
+}
+.theme-holiday-dark .checkerboard[data-v-6ec0dffc] {
+  border-color: #FFF;
+}
+.theme-holiday-light .checkerboard[data-v-6ec0dffc] {
+  border-color: #81a6bd;
+}

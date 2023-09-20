@@ -1,0 +1,38 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/sets/play/PlayPage.vue?vue&type=style&index=0&id=e828ef64&lang=scss&scoped=true ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.play-sets .col-1-4[data-v-e828ef64] {
+  padding-right: 20px;
+  margin-bottom: 25px;
+}
+.sorts[data-v-e828ef64] {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.sorts .sorts-title[data-v-e828ef64] {
+  font-weight: 700;
+  font-size: 20px;
+}
+.sorts .sorts-option[data-v-e828ef64] {
+  font-weight: 600;
+  padding: 7px;
+}
+.theme-default input:checked + label[data-v-e828ef64] {
+  color: #242426;
+}
+.theme-dark input:checked + label[data-v-e828ef64] {
+  color: #FFF;
+}
+.theme-holiday-dark input:checked + label[data-v-e828ef64] {
+  color: #FFF;
+}
+.theme-holiday-light input:checked + label[data-v-e828ef64] {
+  color: #242426;
+}
+.play-searches[data-v-e828ef64] {
+  margin-bottom: 55px;
+}
+.play-selects[data-v-e828ef64] {
+  text-align: right;
+  padding-right: 20px;
+}

@@ -1,0 +1,18 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-6.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/assets/js/vue/components/shop/create/SharedForm.vue?vue&type=style&index=0&id=482b2b91&lang=scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.left-container {
+  border-right: 1px solid;
+}
+.theme-default .left-container {
+  border-color: #C9C9D2;
+}
+.theme-dark .left-container {
+  border-color: #333;
+}
+.theme-holiday-dark .left-container {
+  border-color: #333;
+}
+.theme-holiday-light .left-container {
+  border-color: #8cb3cb;
+}
