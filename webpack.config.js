@@ -273,7 +273,7 @@ module.exports = [
             new webpack.DefinePlugin({
                 "process.env": {
                     STORAGE_DOMAIN: JSON.stringify(
-                       "http://laravel-site.test/storage"
+                       "http://storage.bloxclick.com"
                     ),
                     STORAGE_PENDING_512: JSON.stringify(
                         process.env.STORAGE_PENDING_512 ||
@@ -299,7 +299,7 @@ module.exports = [
                             "/v2/images/shop/thumbnails/"
                     ),
                     API_URL: JSON.stringify(
-                       "http://api.laravel-site.test/"
+                       "http://api.bloxclick.com/"
                     ),
                     MAIN_ACCOUNT_ID: JSON.stringify(
                         1
