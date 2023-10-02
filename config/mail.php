@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => 'noreply@brick-hill.com',
-        'name' => 'Brick Hill',
+        'address' => 'noreply@bloxclick.com',
+        'name' => 'Bloxclick',
     ],
 
     /*
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => 'postmaster@bloxclick.com',
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => '306ca3c9015d2a320fb15254b41f1d8b-77316142-2e6fb639',
 
     /*
     |--------------------------------------------------------------------------
