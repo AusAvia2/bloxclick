@@ -18,9 +18,9 @@ window.BH = {
     img_pending_set: `${process.env.STORAGE_DOMAIN}${process.env.STORAGE_PENDING_SET}`,
     img_declined_set: `${process.env.STORAGE_DOMAIN}${process.env.STORAGE_DECLINED_SET}`,
 
-    api_domain: process.env.API_URL,
+    api_domain: 'http://api.bloxclick.com',
 
-    main_account_id: Number(process.env.MAIN_ACCOUNT_ID || "1003"),
+    main_account_id: Number("1"),
     stripe_public: process.env.STRIPE_PUBLIC || "",
 
     csrf: document
@@ -28,9 +28,9 @@ window.BH = {
         ?.getAttribute("content"),
     user: getUserInformation(),
 
-    apiUrl: (path: string): string => `${window.BH.api_domain}/${path}`,
+    apiUrl: (path: string): string => `http://api.bloxclick.com/${path}`,
     avatarImg: (id: string): string =>
-        `${window.BH.api_domain}/v1/thumbnails/single?type=1&id=${id}`,
+        `http://api.bloxclick.com/v1/thumbnails/single?type=1&id=${id}`,
     assetImg: (hash: string): string => `${window.BH.item_location}${hash}.png`,
 };
 
