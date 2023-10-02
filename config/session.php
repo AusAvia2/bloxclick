@@ -124,7 +124,7 @@ return [
 
     'cookie' => env(
         'SESSION_COOKIE',
-        str_slug(env('APP_NAME', 'laravel'), '_') . '_session'
+        str_slug(env('APP_NAME', 'bloxclick'), '_') . '_session'
     ),
 
     /*
@@ -151,7 +151,7 @@ return [
     |
     */
 
-    'domain' => env('SESSION_DOMAIN', '.laravel-site.test'),
+    'domain' => env('SESSION_DOMAIN', '.bloxclick.com'),
 
     /*
     |--------------------------------------------------------------------------
