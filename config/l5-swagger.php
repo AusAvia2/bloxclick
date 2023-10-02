@@ -5,7 +5,7 @@ return [
     'documentations' => [
         'default' => [
             'api' => [
-                'title' => 'Bloxworld Docs',
+                'title' => 'Bloxclick Docs',
             ],
 
             'routes' => [
