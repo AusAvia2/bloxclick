@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => [env('WILDCARD_URL', 'http://*.laravel-site.test'), env('APP_URL')],
+    'allowed_origins' => [env('WILDCARD_URL', 'http://*.bloxclick.com'), env('APP_URL')],
 
     'allowed_origins_patterns' => [],
 
