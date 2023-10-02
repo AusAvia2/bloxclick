@@ -2,7 +2,7 @@
 
 return [
     'storage' => [
-        'domain' => env('STORAGE_DOMAIN', 'http://laravel-site.test'),
+        'domain' => env('STORAGE_DOMAIN', 'http://bloxclick.com'),
         'thumbnails' => env('THUMBNAIL_DOMAIN', 'http://bloxworld.s3-website-ap-southeast-2.amazonaws.com'),
         'pending' => [
             '512' => env('STORAGE_DOMAIN', 'http://bloxworld.s3-website-ap-southeast-2.amazonaws.com') . env('STORAGE_PENDING_512', '/default/pending.png'),
@@ -89,8 +89,8 @@ return [
             ]
         ]
     ],
-    'main_account_id' => env('MAIN_ACCOUNT_ID', 1),
-    'url' => env('APP_URL', 'http://laravel-site.test'),
-    'api_url' => env('API_URL'),
-    'admin_url' => env('ADMIN_URL'),
+    'main_account_id' => '1',
+    'url' => env('APP_URL', 'http://bloxclick.com'),
+    'api_url' => 'http://api.bloxclick.com',
+    'admin_url' => 'http://admin.bloxclick.com',
 ];
