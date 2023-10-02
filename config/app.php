@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Brick-Hill'),
+    'name' => env('APP_NAME', 'Bloxclick'),
 
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'env' => env('APP_ENV', 'testing'),
+    'env' => env('APP_ENV', 'local'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => parse_url(env('APP_URL', 'http://laravel-site.test'), PHP_URL_HOST),
+    'url' => parse_url(env('APP_URL', 'http://bloxclick.com'), PHP_URL_HOST),
 
     /*
     |--------------------------------------------------------------------------
